@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+
+    <title>Todo list app</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+</head>
+<body>
+
+<header>
+    <input type="text" placeholder="Что вы планируете сделать?" id="item">
+    <button id="add">
+        Добавить!
+    </button>
+</header>
+
+<div class="container">
+    <!-- Планируемые задачи -->
+    <h3>Планируемые задачи:</h3>
+    <ul class="todo" id="todo"></ul>
+
+    <!-- Выполненные задачи -->
+    <h3>Выполненные задачи:</h3>
+    <ul class="todo" id="completed"></ul>
+</div>
+
+<!-- JavaScript -->
+<script src="resources/js/main.js"></script>
+</body>
+</html>
